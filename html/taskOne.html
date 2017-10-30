@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Task One</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <a href="../index.html" class="home task">Главная</a>
+        <div class="taskText"> <b> Задача 1.</b>Добавьте на страницу элемент input[type=»text»]. Справа от input расположите кнопку «+». При нажатии кнопки «+» добавьте еще один элемент input ниже. Возле появившегося элемента создайте кнопку «-» при нажатии на которую данный
+            input будет удаляться. Внизу формы расположите кнопку «собрать», по нажатию которой текст из элементов input будет выведен в расположенный на странице textarea. Внимание: Количество input на странице не больше 6. Удалять можно все элементы
+            input кроме последнего.
+        </div>
+        <form action="post" class="form">
+            <div class="form__wrap">
+                <input type="text" class="form__input">
+                <button class="addInputs">+</button>
+            </div>
+        </form>
+        <button class="submit">собрать</button>
+        <textarea cols="30" rows="10"></textarea>
+    </div>
+    <script src="../js/taskOne.js"></script>
+</body>
+
+</html>
